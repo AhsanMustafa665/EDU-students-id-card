@@ -17,7 +17,7 @@
   <body>
     <!-- font-part-end -->
     <div
-      class="lg:w-[510px] sm:w-[412px] flex justify-around border border-gray-400 lg:m-7 m-3 lg:p-3 p-2 rounded-lg bg-no-repeat bg-right-bottom bg-[url('/images/bg.png')] front-part"
+      class="lg:w-[510px] sm:w-[412px] flex justify-around border border-gray-400 lg:m-7 m-3 lg:p-3 p-2 rounded-lg bg-no-repeat lg:bg-right-bottom bg-right-bottom bg-[url('/images/bg.png')] lg:min-h-0 min-h-[214px] pt-[20px] front-part"
     >
       <div class="relative">
         <img
@@ -40,9 +40,7 @@
           alt=""
         />
         <div class="lg:my-3 my-1">
-          <h3
-            class="text-[#6A0530] font-semibold lg:text-[16px] text-[10px] stdName"
-          >
+          <h3 class="text-[#6A0530] font-semibold lg:text-[16px] text-[10px]">
             Ahsan Mustafa
           </h3>
           <p class="lg:text-[16px] text-[9px]">B.Sc. in CSE</p>
@@ -57,11 +55,13 @@
         </p>
       </div>
       <div>
-        <p class="font-semibold lg:ml-0 ml-2 lg:text-[16px] text-[9px] std">
+        <p
+          class="font-semibold lg:ml-0 ml-2 lg:text-[14px] text-[9px] lg:relative lg:z-0 absolute"
+        >
           Student <span class="text-[#6A0530]">ID CARD</span>
         </p>
         <svg
-          class="lg:ml-[-10px] ml-[-0.8px] lg:mt-0 mt-[-2px]"
+          class="lg:ml-[-10px] ml-[-0.8px] lg:mt-0 mt-[-2px] lg:w-full w-[6rem] h-[5rem]"
           id="barcode"
         ></svg>
       </div>
@@ -69,7 +69,7 @@
     <!-- font-part-end -->
     <!-- back-part-start -->
     <div
-      class="border border-gray-400 lg:w-[510px] sm:w-[412px] lg:m-7 m-3 lg:p-4 p-2 rounded-lg lg:text-sm text-[10px] back"
+      class="border border-gray-400 lg:w-[510px] sm:w-[412px] lg:m-7 m-3 lg:p-4 p-2 rounded-lg lg:text-sm text-[10px]"
     >
       <p class="text-justify">
         This card is your official University ID, and should be carried at all
